@@ -45,12 +45,12 @@ arm_pid_instance_f32 S_pos = {
     .Kd = 0.0,
 };
 arm_pid_instance_f32 S_vel = {
-    .Kp = 6.f,
-    .Ki = 0.5f,
+    .Kp = 8.f,
+    .Ki = 0.7f,
     .Kd = 0.f,
 };
 arm_pid_instance_f32 S_ang = {
-    .Kp = 32.0f,
+    .Kp = 38.0f,
     .Ki = 0.0f,
     .Kd = 0.f,
 };

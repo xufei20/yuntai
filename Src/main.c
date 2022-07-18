@@ -102,7 +102,7 @@ void angle_control(Motor * motor){
   angle_err = (motor->target_angle - motor->absolute_angle);
   speed_out = arm_pid_f32(&angle_pid, angle_err); // 输出期望速度
 
-  speed_out = (speed_out > 800) ? 800 : (speed_out < -800) ? -800 : speed_out;
+  speed_out = (speed_out > 1300) ? 1300 : (speed_out < -1300) ? -1300 : speed_out;
 
   speed_err = speed_out - motor->speed;
   I_out = (int32_t)(arm_pid_f32(&speed_pid,speed_err));
