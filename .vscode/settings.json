@@ -1,0 +1,7 @@
+{
+    "files.associations": {
+        "user_lib.h": "c",
+        "arm_math.h": "c",
+        "main.h": "c"
+    }
+}

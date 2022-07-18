@@ -1,0 +1,41 @@
+{
+    "configurations": [
+        {
+            "name": "Win32",
+            "includePath": [
+                "Inc",
+                "Drivers/STM32F4xx_HAL_Driver/Inc",
+                "Drivers/STM32F4xx_HAL_Driver/Inc/Legacy",
+                "Middlewares/Third_Party/FreeRTOS/Source/include",
+                "Middlewares/Third_Party/FreeRTOS/Source/CMSIS_RTOS",
+                "Middlewares/Third_Party/FreeRTOS/Source/portable/RVDS/ARM_CM4F",
+                "Drivers/CMSIS/Device/ST/STM32F4xx/Include",
+                "Drivers/CMSIS/Include",
+                "bsp/boards",
+                "application",
+                "components/algorithm",
+                "components/algorithm/Include",
+                "components/controller",
+                "components/devices"
+            ],
+            "defines": [
+                "USE_HAL_DRIVER",
+                "STM32F407xx",
+                "ARM_MATH_CM4",
+                // "__FPU_USED=1U",
+                "__FPU_PRESENT=1U",
+                // "__CC_ARM",
+                "ARM_MATH_MATRIX_CHECK",
+                "ARM_MATH_ROUNDING"
+            ],
+            "compilerPath": "c:/Program Files (x86)/GNU Arm Embedded Toolchain/10 2020-q4-major/bin/arm-none-eabi-gcc.exe",
+            "cStandard": "c11",
+            "cppStandard": "c++11",
+            "intelliSenseMode": "gcc-arm",
+            "forcedInclude": [
+                "stdint.h"
+            ]
+        }
+    ],
+    "version": 4
+}
